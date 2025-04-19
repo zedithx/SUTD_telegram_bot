@@ -39,7 +39,7 @@ client = gspread.authorize(creds)
 sheet = client.open('Echo@Cove').worksheet('TrialRun')
 
 """initialising variables/bot"""
-TOKEN = '5631416352:AAGNTPtHwtzZi3dEpywSRDLSzD7e9vJBYVA'
+TOKEN = ""
 bot = telegram.Bot(token=TOKEN)
 # Define no. of variables to be stored
 NAME, STUDENT_ID, MUSIC_THEME, CONFIRMATION, SUBMIT = range(5)
